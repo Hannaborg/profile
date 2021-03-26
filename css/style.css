@@ -1,14 +1,26 @@
 @import "components/navbar.css";
-
-
+@import "components/images.css";
+@import "components/containers.css";
 
 body {
   margin: 0;
   margin-bottom: 100px;
   font-family: ;
-  line-height: 1.5;
+  line-height: 1.7;
+  background-color: #F8F9F5;
 }
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+}
+
+h1, h2, h3 {
+  margin: 0;
 }
