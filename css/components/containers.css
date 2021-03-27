@@ -24,8 +24,31 @@
 
 .project {
   flex-grow: 1;
-  height: 400px;
+  height: 450px;
   text-align: center;
   align-items: center;
   padding: 32px 0;
+}
+
+.project img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  padding: 16px;
+}
+
+.project img:hover {
+  opacity: 0.5;
+}
+
+.project h3:hover {
+  opacity: 0.5;
+}
+
+.project p {
+  opacity: 0.7;
+  width: 250px;
+  margin: auto;
+  line-height: 1.2;
+  font-size: 14px;
 }
